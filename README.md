@@ -1,4 +1,4 @@
-# FileSorter_FormApp
+# FileSorter-FormApp-
 Quite similar to FileSorter-Console- with some new improvements and now with a windows form. 
 
 Example:  
