@@ -1,27 +1,24 @@
 # FileSorter-FormApp-
-Quite similar to FileSorter-Console- with some new improvements and now with a windows form. 
 
-Example:  
+"Im busy show me your code!"...
+[here you go.](/FileSorter_FormApp/Form1.cs)
 
-*Original - out of order, hard to find what you are looking for*  
-Directory "C:\Users\Joe\Pictures"  
---Name----------Date------  
-img001.jpg&nbsp;&nbsp;&nbsp;&nbsp;9/13/2016  
-img002.jpg&nbsp;&nbsp;&nbsp;&nbsp;10/10/2015  
-img003.jpg&nbsp;&nbsp;&nbsp;&nbsp;10/1/2015  
-img004.jpg&nbsp;&nbsp;&nbsp;&nbsp;7/25/2014  
-img005.jpg&nbsp;&nbsp;&nbsp;&nbsp;9/11/2014  
+What does my app do?
+- You select a folder that you want to sort
+- FileSorter asks you how you want it organized; by day, month, year?
+<br>&nbsp;&nbsp;&nbsp; - It lets you ignore subfolders in your selected folder
+<br>&nbsp;&nbsp;&nbsp; - It lets you ignore files that you dont want to sort individually.
+- FileSorter then creates folders and copies or moves your files into those new, well organized folders.
 
-*Run FileSorter - group by month, folders created when needed to hold date sorted files*  
+I created FileSorter with massive Pictures folders in mind.<br>
+However FileSorter will work to sort Documents as well, and most other file types.
 
-Directory "C:\Users\Joe\Pictures"  
-Folder--Name----------Date------  
-2014-7  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img004.jpg&nbsp;&nbsp;&nbsp;&nbsp;7/25/2014  
-2014-9  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img005.jpg&nbsp;&nbsp;&nbsp;&nbsp;9/11/2014  
-2015-10  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img003.jpg&nbsp;&nbsp;&nbsp;&nbsp;10/1/2015  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img002.jpg&nbsp;&nbsp;&nbsp;&nbsp;10/10/2015  
-2016-9  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img001.jpg&nbsp;&nbsp;&nbsp;&nbsp;9/13/2016  
+Example:
+
+My images folders are always a mess, note the span of dates taken...
+![Alt Test Dir Before](/Images/testDirBefore.PNG "Test Dir Before")
+
+![Alt FileSorter GUI](/Images/fileSorterAfterSubmit.PNG "FileSorter GUI")
+
+Now my Test folder images are sorted by month!
+![Alt FileSorter GUI](/Images/testDirAfter.PNG "FileSorter GUI")
